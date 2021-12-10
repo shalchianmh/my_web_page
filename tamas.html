@@ -1,0 +1,54 @@
+<!doctype html>
+<html dir="rtl" lang="fa-IR">
+<head>
+	<meta charset="utf-8">
+    <link rel="icon" href="images/3.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>
+        تماس با من
+    </title>
+</head>
+
+<body>
+    <p id="navbar">
+        <a href="index.html" class="navlink">معرفی</a>
+        <a href="maharat.html" class="navlink">مهارت ها و توانمندی ها</a>
+        <a href="eftrkhar.html" class="navlink">افتخارات و دستاوردها</a>
+        <a href="tamas.html" class="navlink">تماس با من</a>
+    </p>
+    <p style="text-align: right;">
+        برای ارتباط با من فرم زیر را پر کنید.
+    </p>
+    <form>
+        <label for="name">نام و نام خانوادگی:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="email">آدرس ایمیل:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="txt" >متن پیام</label>
+        <br>
+        <textarea id="matn"></textarea>
+        <br><br>
+       <input type="submit" value="ارسال" id="ersal" onclick="Funk1()" >
+      </form>
+      <script>
+          function Funk1(){
+              if(window.confirm("آیا میخواهید اطلاعات خود را ارسال کنید؟")){
+                  window.alert("اطلاعات شما با موفقیت ارسال شد");
+              }
+          }
+      </script>
+<br>
+<br>
+<br>
+<footer>
+<a href="mailto:shalchianmh@gmail.com" class="footlink">ایمیل به من</a>
+<a href="https://stackoverflow.com/users/17518511/shalchianmh?tab=profile" class="footlink">استک اورفلوی من</a>
+<a href="https://github.com/shalchianmh" class="footlink">گیت هاب من</a>
+
+</footer>  
+</body>	
+</html>
